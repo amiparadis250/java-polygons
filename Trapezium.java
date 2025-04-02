@@ -6,7 +6,7 @@ package Polygon;
 
 /**
  *
- * @author user
+ * @author ISHIMWE Ami Paradis
  */
 import java.util.Scanner;
 public class Trapezium implements Polygon {
@@ -52,6 +52,7 @@ public class Trapezium implements Polygon {
         
         
         Message();
+         Quadrilateral.showHistory();
         
     }
 }

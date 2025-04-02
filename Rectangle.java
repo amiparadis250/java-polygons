@@ -6,7 +6,7 @@ package Polygon;
 
 /**
  *
- * @author user
+ * @author ISHIMWE Ami Paradis
  */
 import java.util.Scanner;
 public class Rectangle {
@@ -20,5 +20,7 @@ public class Rectangle {
         Quadrilateral rect = new Quadrilateral("Student", "Rectangle");
         System.out.println("Area of Rectangle: " + rect.getArea(length, width));
         
+        
+         Quadrilateral.showHistory();
     }
 }

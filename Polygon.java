@@ -6,10 +6,12 @@ package Polygon;
 
 /**
  *
- * @author user
+ * @author ISHIMWE Ami Paradis
+ * 
  */
 public interface Polygon {
     String getName();
     int getNumberOfSides();
     int totalIntAngleSum();
 }
+

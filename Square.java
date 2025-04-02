@@ -14,6 +14,9 @@ public class Square extends Quadrilateral {
         System.out.print("Enter the side of the square: ");
         int side = scanner.nextInt();
        System.out.println("Area of Square: " + Quadrilateral.getArea(side));
+       
+       
+        Quadrilateral.showHistory();
     }
 }
 
